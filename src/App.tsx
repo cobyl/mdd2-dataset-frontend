@@ -11,7 +11,7 @@ const i18nProvider = polyglotI18nProvider(() => englishMessages, "en-GB");
 
 export const App = () => (
     <HydraAdmin
-        entrypoint="https://mdd.ibb.waw.pl/api"
+        entrypoint="https://api.mdd.ibb.waw.pl/api"
         layout={MyLayout}
         theme={lightTheme}
         dashboard={Introduction}
